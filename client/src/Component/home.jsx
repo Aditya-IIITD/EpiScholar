@@ -12,7 +12,6 @@ function Home({ data }) {
           <Circle
             heading={"Guarantor Form"}
             style="absolute top-[30%] right-[-6%]"
-            iconSize={"12px"}
             about={data["Guarantor Form"]}
           />
           <div className="border-4 relative border-dashed flex justify-center items-center rounded-[50%]  w-[850px] h-[850px]">
@@ -24,25 +23,21 @@ function Home({ data }) {
             <Circle
               heading={"Application Form"}
               style="absolute top-[-0%] left-[0%]"
-              iconSize={"12px"}
               about={data["Application Form"]}
             />
             <Circle
               heading={"Residence Proof"}
               style="absolute bottom-[-0%] left-[0%]"
-              iconSize={"12px"}
               about={data["Residence Proof"]}
             />
             <Circle
               heading={"Residence Proof"}
               style="absolute bottom-[-0%] left-[0%]"
-              iconSize={"12px"}
               about={data["Residence Proof"]}
             />
             <Circle
               heading={"Additional Documents"}
               style="absolute bottom-[-0%] right-[0%]"
-              iconSize={"12px"}
               about={data["Additional Documents"]}
             />
             <div className=" w-[500px] h-[500px] flex items-center justify-center  rounded-[50%] relative border-4 border-dashed">
@@ -64,13 +59,11 @@ function Home({ data }) {
               />
               <Circle
                 heading={"Academic Records"}
-                iconSize="12px"
                 style="absolute left-[-25%]"
                 about={data["Academic Records"]}
               />
               <Circle
                 heading={"Bank Statements"}
-                iconSize="12px"
                 style="absolute bottom-[-25%]"
                 about={data["Bank Statements"]}
               />
