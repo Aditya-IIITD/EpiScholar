@@ -1,5 +1,4 @@
-import { GoDotFill } from "react-icons/go";
-function Circle({ heading, about, style, iconSize }) {
+function Circle({ heading, about, style }) {
   return (
     <div
       className={`${
@@ -9,10 +8,9 @@ function Circle({ heading, about, style, iconSize }) {
       } flex justify-center items-center flex-col gap-6  bg-[#FEF5FF] rounded-[50%] shadow-inner-pink text-[#02347D] ${style}`}
     >
       <p className="font-bold text-lg text-[#02347D]">{heading}</p>
-      <ul className="">
-        <li key={1} className="text-xs px-6 flex gap-1">
-          <GoDotFill className={`text-[${iconSize || "20px"}]`} />
-          <p>{about}</p>
+      <ul className=" list-disc list-inside">
+        <li key={1} className="text-xs px-5 flex gap-1 list-item">
+          {about}
         </li>
       </ul>
     </div>
