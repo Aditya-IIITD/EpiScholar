@@ -31,11 +31,6 @@ function Home({ data }) {
               about={data["Residence Proof"]}
             />
             <Circle
-              heading={"Residence Proof"}
-              style="absolute bottom-[-0%] left-[0%]"
-              about={data["Residence Proof"]}
-            />
-            <Circle
               heading={"Additional Documents"}
               style="absolute bottom-[-0%] right-[0%]"
               about={data["Additional Documents"]}
