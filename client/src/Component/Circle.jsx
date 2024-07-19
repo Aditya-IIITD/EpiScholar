@@ -1,8 +1,12 @@
 import { GoDotFill } from "react-icons/go";
-function Circle({ heading, about, size, style, iconSize }) {
+function Circle({ heading, about, style, iconSize }) {
   return (
     <div
-      className={`w-[${size}] flex justify-center items-center flex-col gap-6 h-[${size}] bg-[#FEF5FF] rounded-[50%] shadow-inner-pink text-[#02347D] ${style}`}
+      className={`${
+        heading == "Income Proof"
+          ? "w-[250px] h-[250px]"
+          : "w-[200px] h-[200px]"
+      } flex justify-center items-center flex-col gap-6  bg-[#FEF5FF] rounded-[50%] shadow-inner-pink text-[#02347D] ${style}`}
     >
       <p className="font-bold text-lg text-[#02347D]">{heading}</p>
       <ul className="">
